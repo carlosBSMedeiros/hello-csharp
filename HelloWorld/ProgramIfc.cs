@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloInterfaces
 {
-    internal interface ProgramIfc
+    internal interface IProgram
     {
-        void iniciar();
+        void Iniciar();
 
     }
 }

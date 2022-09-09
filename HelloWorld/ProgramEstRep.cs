@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Text;
-using HelloInterfaces;
 
-class ProgramEstRep : ProgramIfc
+class ProgramEstRep : IProgram
 {
-    private double TAXA_JUROS = 1.01; //1%
+    private readonly double TAXA_JUROS = 1.01; //1%
 
-    public void iniciar()
+    public void Iniciar()
     {
         short meses = 4;
         double valor = 1000;

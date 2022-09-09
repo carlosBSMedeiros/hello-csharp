@@ -1,9 +1,8 @@
-﻿using HelloInterfaces;
-using System;
+﻿using System;
 
-class ProgramEstCond : ProgramIfc
+class ProgramEstCond : IProgram
 {
-    void ProgramIfc.iniciar()
+    void IProgram.Iniciar()
     {
         liberarEntradaPorIdade(17);
         liberarEntradaPorIdade(27);

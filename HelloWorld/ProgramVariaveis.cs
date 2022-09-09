@@ -1,9 +1,8 @@
-﻿using HelloInterfaces;
-using System;
+﻿using System;
 
-class ProgramVariaveis : ProgramIfc
+class ProgramVariaveis : IProgram
 {
-    public void iniciar()
+    public void Iniciar()
     {
         #pragma warning disable CS0219 // A variável é atribuída, mas seu valor nunca é usado
         Console.WriteLine("=== VARIAVEIS EM C# ===");
